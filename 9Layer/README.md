@@ -80,26 +80,47 @@ Python + Djangoの読みやすく保守性が高いコードを描くための�
 
 ## 使い方(プロジェクトを利用できる有料ユーザー向け)
 * Claude > Projects画面に入ります
+<details>
+<summary>画像</summary>
 ![](images/README3.png)
+</details>
 * 新規プロジェクトを作成します。
 * 右側のプロジェクト「Set project instructions」を開きます。
+<details>
+<summary>画像</summary>
 ![](images/README4.png)
+</details>
 * 初期プロンプト欄に[project-init.md](https://raw.githubusercontent.com/t-akira012/claude-37-sonnet-system-prompts/refs/heads/main/9Layer/project-init.md)の内容を全てコピー＆ペーストします
+<details>
+<summary>画像</summary>
 ![](images/README5.png)
+</details>
 
 以上。
 * 注意：PerplexityAPI, AWSドキュメントサーチなどなど、Claude MCPを使いたい場合は別途設定します。ただし、searchがWEB UIで実装されたため、2025年6月現在は、MCP不要です。
 
 ## 使い方(プロジェクトを利用できない無料ユーザー向け)
 * Claud > Style画面に入ります
+<details>
+<summary>画像</summary>
 ![](images/README7.png)
+</details>
 * Create Custom Styleをクリック
+<details>
+<summary>画像</summary>
 ![](images/README8.png)
+</details>
 * Describe style insteadをクリック
+<details>
+<summary>画像</summary>
 ![](images/README9.png)
+</details>
 * Use custom instructions(advanced)を選び、右側に [スタイル全文](https://raw.githubusercontent.com/t-akira012/claude-37-sonnet-system-prompts/refs/heads/main/9Layer/9Layer.old.md) の中身をコピペ
 ![](images/README10.png)
+<details>
+<summary>画像</summary>
 * Create Styleをクリック
+</details>
 
 以上。
 
