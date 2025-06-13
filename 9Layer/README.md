@@ -35,7 +35,6 @@ Claude Codeについて教えてください
 
 ### 例1: 通常の出力
 [Claude Codeについて教えてください](https://claude.ai/share/206fe200-0b8d-47bc-8866-6b32b76e82d2)
-![](images/README.png)
 
 ### 例1: 強化版の出力
 - [Claude Code Overview - Claude](https://claude.ai/chat/e2f1636a-83f1-4fdd-884c-63eadb9f1b20)
