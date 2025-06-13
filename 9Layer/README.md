@@ -93,9 +93,3 @@ Python + Djangoの読みやすく保守性が高いコードを描くための�
 * Use custom instructions(advanced)を選び、右側に [スタイル全文](https://raw.githubusercontent.com/t-akira012/claude-37-sonnet-system-prompts/refs/heads/main/9Layer/9Layer.md) の中身をコピペ
 ![](images/README10.png)
 * Create Styleをクリック
-
-
-
-## バグ
-
-Claude4ではArtifactsを出力した時に、
