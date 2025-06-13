@@ -81,6 +81,8 @@ Python + Djangoの読みやすく保守性が高いコードを描くための�
 
 以上。
 
+* 注意：PerplexityAPI, AWSドキュメントサーチなどなど、Claude MCPを使いたい場合は別途設定します。ただし、searchがWEB UIで実装されたため、2025年6月現在は、MCP不要です。
+
 ## 使い方(プロジェクトを利用できない無料ユーザー向け)
 * Claud > Style画面に入ります
 ![](images/README7.png)
@@ -92,8 +94,6 @@ Python + Djangoの読みやすく保守性が高いコードを描くための�
 ![](images/README10.png)
 * Create Styleをクリック
 
-
-* 注意：PerplexityAPI, AWSドキュメントサーチなどなど、Claude MCPを使いたい場合は別途設定します。ただし、searchがWEB UIで実装されたため、2025年6月現在は、MCP不要です。
 
 
 ## バグ
