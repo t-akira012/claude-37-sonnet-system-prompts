@@ -34,22 +34,14 @@ Claude Codeについて教えてください
 
 ### 例1: 通常の出力
 [Claude Codeについて教えてください](https://claude.ai/share/206fe200-0b8d-47bc-8866-6b32b76e82d2)
-<details>
-<summary>画像</summary>
 ![](images/README.png)
-</details>
-
 
 ### 例1: 強化版の出力
 - [Claude Code Overview - Claude](https://claude.ai/chat/e2f1636a-83f1-4fdd-884c-63eadb9f1b20)
    - [Claude Code：次世代ターミナル型AIコーディングアシスタントの全貌](https://claude.ai/public/artifacts/e44817d0-5597-431c-9801-63defae05178)
    - [Claude Code 分析サマリー（テーブル形式）](https://claude.ai/public/artifacts/011b2625-b77b-431c-92e6-8da25ee0a5c0)
-<details>
-<summary>画像</summary>
 ![](images/README1.png)
 ![](images/README2.png)
-</details>
-
 
 ### 入力例2
 
@@ -80,51 +72,28 @@ Python + Djangoの読みやすく保守性が高いコードを描くための�
 
 ## 使い方(プロジェクトを利用できる有料ユーザー向け)
 * Claude > Projects画面に入ります
-<details>
-<summary>画像</summary>
 ![](images/README3.png)
-</details>
 * 新規プロジェクトを作成します。
 * 右側のプロジェクト「Set project instructions」を開きます。
-<details>
-<summary>画像</summary>
 ![](images/README4.png)
-</details>
 * 初期プロンプト欄に[project-init.md](https://raw.githubusercontent.com/t-akira012/claude-37-sonnet-system-prompts/refs/heads/main/9Layer/project-init.md)の内容を全てコピー＆ペーストします
-<details>
-<summary>画像</summary>
 ![](images/README5.png)
-</details>
 
 以上。
-* 注意：PerplexityAPI, AWSドキュメントサーチなどなど、Claude MCPを使いたい場合は別途設定します。ただし、searchがWEB UIで実装されたため、2025年6月現在は、MCP不要です。
 
 ## 使い方(プロジェクトを利用できない無料ユーザー向け)
 * Claud > Style画面に入ります
-<details>
-<summary>画像</summary>
 ![](images/README7.png)
-</details>
 * Create Custom Styleをクリック
-<details>
-<summary>画像</summary>
 ![](images/README8.png)
-</details>
 * Describe style insteadをクリック
-<details>
-<summary>画像</summary>
 ![](images/README9.png)
-</details>
 * Use custom instructions(advanced)を選び、右側に [スタイル全文](https://raw.githubusercontent.com/t-akira012/claude-37-sonnet-system-prompts/refs/heads/main/9Layer/9Layer.old.md) の中身をコピペ
 ![](images/README10.png)
-<details>
-<summary>画像</summary>
 * Create Styleをクリック
-</details>
-
-以上。
 
 
+* 注意：PerplexityAPI, AWSドキュメントサーチなどなど、Claude MCPを使いたい場合は別途設定します。ただし、searchがWEB UIで実装されたため、2025年6月現在は、MCP不要です。
 
 
 ## バグ
