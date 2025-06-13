@@ -1,8 +1,8 @@
-# Claude手製Deep Research
+# Claude模擬Deep Research
 
 ## これは何か
 
-- Claudeのプロジェクト機能を利用して、擬似的に、「検索→調査→詳細なまとめ」を行うDeepResearch機能を模倣する、出力機能強化システムです。
+- Claudeのプロジェクト機能を利用して、擬似的に、「検索→調査→詳細なまとめ」を行う模擬DeepResearch機能を模倣する、出力機能強化システムです。
 
 ## 何ができるのか
 
@@ -23,21 +23,39 @@
 
 ## 実際の出力例
 
-### 入力例
+### 入力例1
 ```
 Claude Codeについて教えてください
 ```
 
-### 通常の出力
+### 例1: 通常の出力
 [Claude Codeについて教えてください](https://claude.ai/share/206fe200-0b8d-47bc-8866-6b32b76e82d2)
 ![](images/README.png)
 
-### 強化版の出力
+### 例1: 強化版の出力
 - [Claude Code Overview - Claude](https://claude.ai/chat/e2f1636a-83f1-4fdd-884c-63eadb9f1b20)
    - [Claude Code：次世代ターミナル型AIコーディングアシスタントの全貌](https://claude.ai/public/artifacts/e44817d0-5597-431c-9801-63defae05178)
    - [Claude Code 分析サマリー（テーブル形式）](https://claude.ai/public/artifacts/011b2625-b77b-431c-92e6-8da25ee0a5c0)
 ![](images/README1.png)
 ![](images/README2.png)
+
+### 入力例2
+
+```
+Python + Djangoの読みやすく保守性が高いコードを描くための、Claude Code用のシステムプロンプト（CLAUDE.md）を作りなさい。
+
+- Python + Djangoに関するAIコーディングの効率化するコツ（Claude Codeなどを利用）
+- 上記のテーブル式サマリー
+- CLAUDE.md (トークン数を少なく、要点を絞ってください)
+それぞれ、別のArtifactsで出力してください。
+```
+
+以下の4ドキュメントが一発で自動出力
+- [Python Django AI Coding System - Claude](https://claude.ai/share/d304797e-b5e3-49c1-bd34-fd68f7f2c621)
+   - [Python + DjangoとAIコーディングの革新的効率化戦略](https://claude.ai/public/artifacts/e0af94cb-9dbb-44d2-87c1-b51516f38668)
+   - [Python + DjangoでのAIコーディング効率化 実践ガイド](https://claude.ai/public/artifacts/3779af6e-5aa2-4729-8533-88a3a8ab5ed9)
+   - [Python + Django AIコーディング効率化 総合サマリー](https://claude.ai/public/artifacts/5a2c46e3-117e-4b22-9383-7558d62bb436)
+   - [CLAUDE.md - Django開発用システムプロンプト](https://claude.ai/public/artifacts/996c1594-8ca2-40aa-8946-295763ef183d)
 
 ## ChatGPT DeepResearchとの違い
 
@@ -48,16 +66,32 @@ Claude Codeについて教えてください
    - 明確に厳密性に劣る(Terraformなどのライブラリで、存在しないモジュールをハルシネーションする)
    - 段階を踏んだ推論を繰り返すDeepResearchに比べて、単に「大量の検索を利用した、一発出力」に過ぎない、あくまでサマライズである
 
-## 使い方
+## 使い方(プロジェクトを利用できる有料ユーザー向け)
 * Claude > Projects画面に入ります
 ![](images/README3.png)
 * 新規プロジェクトを作成します。
 * 右側のプロジェクト「Set project instructions」を開きます。
 ![](images/README4.png)
-* 初期プロンプト欄に[project-init.md](./project-init.md)の内容を全てコピー＆ペーストします
+* 初期プロンプト欄に[project-init.md](https://raw.githubusercontent.com/t-akira012/claude-37-sonnet-system-prompts/refs/heads/main/9Layer/project-init.md)の内容を全てコピー＆ペーストします
 ![](images/README5.png)
 
 以上。
 
+## 使い方(プロジェクトを利用できない無料ユーザー向け)
+* Claud > Style画面に入ります
+![](images/README7.png)
+* Create Custom Styleをクリック
+![](images/README8.png)
+* Describe style insteadをクリック
+![](images/README9.png)
+* Use custom instructions(advanced)を選び、右側に [スタイル全文](https://raw.githubusercontent.com/t-akira012/claude-37-sonnet-system-prompts/refs/heads/main/9Layer/9Layer.old.md) の中身をコピペ
+![](images/README10.png)
+* Create Styleをクリック
+
 
 * 注意：PerplexityAPI, AWSドキュメントサーチなどなど、Claude MCPを使いたい場合は別途設定します。ただし、searchがWEB UIで実装されたため、2025年6月現在は、MCP不要です。
+
+
+## バグ
+
+Claude4ではArtifactsを出力した時に、
