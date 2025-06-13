@@ -35,11 +35,13 @@ Claude Codeについて教えてください
 
 ### 例1: 通常の出力
 [Claude Codeについて教えてください](https://claude.ai/share/206fe200-0b8d-47bc-8866-6b32b76e82d2)
+![](images/README.png)
 
 ### 例1: 強化版の出力
 - [Claude Code Overview - Claude](https://claude.ai/chat/e2f1636a-83f1-4fdd-884c-63eadb9f1b20)
    - [Claude Code：次世代ターミナル型AIコーディングアシスタントの全貌](https://claude.ai/public/artifacts/e44817d0-5597-431c-9801-63defae05178)
    - [Claude Code 分析サマリー（テーブル形式）](https://claude.ai/public/artifacts/011b2625-b77b-431c-92e6-8da25ee0a5c0)
+![](images/README1.png)
 
 ### 入力例2
 
